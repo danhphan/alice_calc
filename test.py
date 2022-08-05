@@ -1,3 +1,3 @@
 # add a test
 def test():
-  pass
+  print("testing")
