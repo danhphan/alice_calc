@@ -1,6 +1,6 @@
 # This perfect calculation is written by Alice
 # Perform simple arithmetic encoded in an input string:
-# '1 + 2' -> 3, or '1 - 2' -> -1.
+# '1.1 + 2.2' -> 3.3, or '1 - 2' -> -1.
 def compute(expression):
     num0, operator, num1 = expression.split(' ')
     num0, num1 = float(num0), float(num1)
